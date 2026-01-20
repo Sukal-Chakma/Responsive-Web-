@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box
+}
 /* Shared Styles  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -68,7 +72,7 @@ header{
 }
 /* Banner Section  */
 .banner-container{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 760px;
     width: 100%;
     max-width: 1600px;
@@ -77,7 +81,7 @@ header{
     margin: 0 auto;
 }
 .banner-middle{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 100px auto;
     height: 558px;
     width: 550px;
@@ -115,6 +119,65 @@ header{
     margin: 10px auto;
 }
 
+/* Main Section  */
+
+
+/* Features Section  */
+.host-container{
+    /* border: 1px solid burlywood; */
+    height: 378px;
+    max-width: 1200px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    
+}
+.feature-heading{
+    /* border: 1px solid tomato; */
+    max-width: 1200px;
+    height: 58px;
+    text-align: center;
+}
+.meet-the-host{
+    /* border: 2px solid tomato; */
+    margin: 120px auto;
+}
+.feature-heading h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.biodata{
+    background-color: #351165;
+    max-width: 1200px;
+    height: 280px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.alex-kumar{
+    width: 896px;
+    height: 183px;
+    margin: 48px 0;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+}
+.social-icons .icon{
+    margin-left: 8px;
+    border: 1px solid rgb(231, 68, 122);
+    border-radius: 50%;
+
+    
+}
+.social-icons .icon img{
+    padding: 10px;
+}
+
 
 /* Footer Section  */
 .footer-container{
@@ -122,7 +185,7 @@ header{
     max-width: 1600px;
     margin: 0 auto;
     height: 412px;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 }
 
 .footer-section{
@@ -132,7 +195,7 @@ header{
     max-width: 1360px;
     height: 200px;
     color: #FFFFFF;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .footer-section h2{
     margin: 0 auto;
