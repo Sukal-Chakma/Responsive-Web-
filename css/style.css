@@ -79,10 +79,14 @@ header{
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .banner-middle{
     /* border: 1px solid white; */
-    margin: 100px auto;
+    margin: 0 auto;
     height: 558px;
     width: 550px;
 }
@@ -99,27 +103,79 @@ header{
     width: 75px;
     height: 38px;
     position: absolute;
-    background-color: green;
-    border: 1px solid white;
-    font-size: 18;
-    font-weight: 600
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin: 12px 23px 300px 252px;
+    border-radius: 16px;
   
 }
 .microphone{
     height: 150px;
     width: 150px;
     position: absolute;
-    margin: 69px 175px;
+    margin: 77.33px auto 97.67;
     
 }
 .banner-about{
     text-align: center;
 }
 .text-heading{
-    margin: 10px auto;
+    margin: 40px auto;
+}
+.banner-about .btn-primary{
+    margin: 24px auto 100px;
+}
+/* Main Section  */
+/* About Section  */
+main{
+    margin-top: 0px;
+}
+.about{
+    margin-top: 0px;
+    border: 2px solid #1A0B2E;
+    
+}
+.about-container {
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 646px;
+    text-align: center;
+    margin: 50px auto 160px;
+    /* padding: 200px 50px 200px 120px; */
+    /* border: 2px solid white; */
+}
+.section-heading {
+    margin: 50px auto;
+    text-align: center;
+    max-width: 1200px;
+    height: 222px;
+}
+.section-heading h2{
+    font-size: 3rem;
+    font-weight: 600;
 }
 
-/* Main Section  */
+.about-info {
+    display: flex;
+    justify-content:space-around;
+    margin: 160px auto 120px ;
+}
+.about-info .info-card h1{
+  font-size:3rem;
+  font-weight: 600;
+  color: #00FF88;
+}
+
+.about-info .info-card p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
 
 
 /* Features Section  */
