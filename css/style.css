@@ -124,9 +124,7 @@ header{
     height: 412px;
     border: 2px solid salmon;
 }
-.footer{
- 
-}
+
 .footer-section{
     display: grid;
     align-items: center;
