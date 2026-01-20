@@ -17,11 +17,19 @@
     display: flex;
 }
 .btn-primary{
-    background-color: red;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #fb09b2);
     padding: 12.5px 16px;
     border-radius: 30px;
     color: #FFFFFF;
     font-weight: 600;
+}
+.btn-secondary{
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    padding: 12.5px 20px;
+    font-weight: 600;
+    background-color: #1A0B2E;
+    border-radius: 30px;
 }
 .logo-font{
     font-size: 48px;
@@ -91,9 +99,7 @@ header{
     border: 1px solid white;
     font-size: 18;
     font-weight: 600
-    padding: ;
-    border-radius: 20px;
-    margin: 12px 123px 508px 352px;
+  
 }
 .microphone{
     height: 150px;
@@ -107,4 +113,49 @@ header{
 }
 .text-heading{
     margin: 10px auto;
+}
+
+
+/* Footer Section  */
+.footer-container{
+    background-image: url("../assets/footer-bg.png");
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 412px;
+    border: 2px solid salmon;
+}
+.footer{
+ 
+}
+.footer-section{
+    display: grid;
+    align-items: center;
+    margin: 120px auto;
+    max-width: 1360px;
+    height: 200px;
+    color: #FFFFFF;
+    border: 1px solid blue;
+}
+.footer-section h2{
+    margin: 0 auto;
+}
+.footer-iteams{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.footer-iteam{
+    margin-right: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.copy-right{
+    text-align: center;
+    
+}
+.social-imag{
+    height: 24px;
+    width: 24px;
 }
