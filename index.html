@@ -3,13 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Responsive Website</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="inter-font">
     <!-- Header Secton  -->
-    <header>
-        <h1>WELCOME</h1>
+    <header class="bg-black">
+        <nav class="navigation-bar display-flex">
+            <h2 class="logo-font">Tech<span class="logo-side-font">Wave</span></h2>
+            <ul class="menu display-flex">
+                <li class="menu-iteam"><a class="menu-link" href="">About</a></li>
+                <li class="menu-iteam"><a class="menu-link" href="">Episode</a></li>
+                <li class="menu-iteam"><a class="menu-link" href="">Host</a></li>
+            </ul>
+            <button class="btn-primary"><a href=""></a>Subscribe</button>
+        </nav>
+        <section class="banner-container">
+            <div class="banner-middle">
+                <div class="banner-circle">
+                    <div class="new">new</div>
+                    <img src="./assets/hero-circle.png" alt="">
+                    <div class="microphone">
+
+                        <img src="./assets/microphone.png" alt="">
+                    </div>
+                </div>
+                <div class="banner-about">
+                    <h2 class="text-heading">TechWave</h2>
+                    <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <button class="btn-primary"><a href=""></a>Listen on Spotify</button>
+                    <button class="btn-primary"><a href=""></a>Subscribe</button>
+                </div>
+            </div>
+        </section>
     </header>
     <!-- Main Section  -->
     <main>
