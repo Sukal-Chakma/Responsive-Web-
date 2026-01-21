@@ -262,13 +262,13 @@ header{
   grid-column: auto;
  }
  /* video Section  */
- /* episod */
+ 
  .Video-section{
     max-width: 1600px;
     height: 1250px; 
     margin: 0 auto;
-    /* border: 3px solid red; */
-    
+
+    /* Featured Section  */
  }
 .featured-section {
   max-width: 1200px;
