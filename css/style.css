@@ -215,7 +215,7 @@ header{
     margin: 40px auto 50px;
     max-width: 1200px;
 }
-.naruto {
+.tex-heading {
     text-align: center;
     font-size: 4rem;
     margin-bottom: 40px;
@@ -241,24 +241,24 @@ header{
     width: 40px;
     margin-bottom: 15px;
 }
-/* Card possiti*/
-.itachi {
+/* Card section */
+.design-1 {
     grid-row: span 2;
 }
 
-.madara {
+.design-2 {
     grid-column: span 2;
 }
 
-.obito {
+.design-3 {
     grid-column: span 2;
 }
 
-.sisui {
+.design-4 {
     grid-column: span 2; 
 }
 
- .susake{ 
+ .design-5{ 
   grid-column: auto;
  }
  /* video Section  */
@@ -330,7 +330,6 @@ header{
 
 }
 .host-container{
-    /* border: 1px solid burlywood; */
     height: 378px;
     max-width: 1200px;
     color: #FFFFFF;
@@ -338,18 +337,12 @@ header{
     
 }
 .feature-heading{
-    /* border: 1px solid tomato; */
     max-width: 1200px;
     height: 58px;
     text-align: center;
     margin-bottom: 40px;
 }
-.meet-the-host{
-    /* border: 2px solid tomato; */
-    /* margin: 60px auto 20px; */
-    /* border: 2px solid teal; */
-    
-}
+
 .feature-heading h1{
     font-size: 48px;
     font-weight: 600;
@@ -467,7 +460,6 @@ header{
    .tech-wave-mid{
     grid-template-columns: repeat(1, 1fr);
     margin: 0 15px;
-    p
    }
    .card-wrapper {
     flex-direction: column;
@@ -481,7 +473,6 @@ header{
 
     .car{
     background: #1A0B2E;
-    font-size: ;
     width: 400px;
     }
     .featured-section h2{
@@ -489,16 +480,9 @@ header{
 
     }
 
-    .meet-the-host{
+    .footer{
         flex-direction: column;
     }
-    .biodata{
-        flex-direction: column;
-    }
-
-
-
-        
 }
 @media screen and (min-width:576px) and (max-width:992px){
     .three-line{
@@ -512,3 +496,4 @@ header{
         display: none;
     }
 }
+/* The End  */
