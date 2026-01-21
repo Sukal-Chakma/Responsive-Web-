@@ -266,6 +266,7 @@ header{
  .Video-section{
     max-width: 1600px;
     height: 1250px; 
+    margin: 0 auto;
     /* border: 3px solid red; */
     
  }
