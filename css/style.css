@@ -27,6 +27,13 @@
     color: #FFFFFF;
     font-weight: 600;
 }
+.btn-primarys{
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #fb09b2);
+    padding: 12.5px 16px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
 .btn-secondary{
     border: 1px solid #00FF88;
     color: #00FF88;
@@ -34,6 +41,8 @@
     font-weight: 600;
     background-color: #1A0B2E;
     border-radius: 30px;
+}
+
 }
 .logo-font{
     font-size: 3rem;
@@ -183,7 +192,7 @@ header{
 
 /* Techwave Wave Section  */
 .tech-wave-section{
-    /* border: 2px solid white; */
+    border: 2px solid #230E3D;
     max-width: 1600px;
     height: 1121px;
     margin: 0 auto;
@@ -256,8 +265,9 @@ header{
  /* episod */
  .Video-section{
     max-width: 1600px;
-    /* height: 1276px; */ 
-    border: 3px solid red;
+    height: 1250px; 
+    /* border: 3px solid red; */
+    
  }
 .featured-section {
   max-width: 1200px;
@@ -316,18 +326,18 @@ header{
 /* Features Section  */
 .features{
     max-width: 1600px;
-    height: ;
+
 }
 .host-container{
-    border: 1px solid burlywood;
+    /* border: 1px solid burlywood; */
     height: 378px;
     max-width: 1200px;
     color: #FFFFFF;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     
 }
 .feature-heading{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     max-width: 1200px;
     height: 58px;
     text-align: center;
@@ -380,18 +390,25 @@ header{
 
 
 /* Footer Section  */
+.footer{
+    margin-top: 0px;
+    border: 1px solid #230E3D;
+}
 .footer-container{
     background-image: url("../assets/footer-bg.png");
     max-width: 1600px;
     margin: 0 auto;
     height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* border: 2px solid salmon; */
 }
 
 .footer-section{
     display: grid;
     align-items: center;
-    margin: 120px auto;
+    margin: 100px auto;
     max-width: 1360px;
     height: 200px;
     color: #FFFFFF;
@@ -431,16 +448,62 @@ header{
         width: 100px;
     }
     .about-info {
-    flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 40px;
     
 
-}
+   }
+    .banner-about, p{
+    margin-bottom: 10px;
+    padding: 10px;
+   }
+   .heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+
+   }
+   .tech-wave-mid{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 15px;
+    p
+   }
+   .card-wrapper {
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+    .card {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+    .car{
+    background: #1A0B2E;
+    font-size: ;
+    width: 400px;
+    }
+    .featured-section h2{
+        margin: 10px auto;
+
+    }
+
+    .meet-the-host{
+        flex-direction: column;
+    }
+    .biodata{
+        flex-direction: column;
+    }
+
+
+
         
 }
 @media screen and (min-width:576px) and (max-width:992px){
     .three-line{
         display: none;
     }
+
 }
 
 @media screen and (min-width:993px){
