@@ -36,14 +36,14 @@
     border-radius: 30px;
 }
 .logo-font{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
 }
 .logo-side-font{
     color: red;
 }
 .text-heading{
-    font-size: 60px;
+    font-size: 3.80rem;
     font-weight: 700;
     color: #FFFFFF;
 }
@@ -56,6 +56,8 @@ header{
 .navigation-bar{
     justify-content: space-around;
     align-items: center;
+    max-width: 1600px;
+    height: 92px;
 }
 .menu{
     align-items: center;
@@ -63,13 +65,14 @@ header{
 }
 .menu-iteam{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 2rem;
 
 }
 .menu-link{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /* Banner Section  */
 .banner-container{
     /* border: 2px solid white; */
@@ -88,7 +91,7 @@ header{
     /* border: 1px solid white; */
     margin: 0 auto;
     height: 558px;
-    width: 550px;
+    max-width: 550px;
 }
 .banner-circle{
     height: 350px;
@@ -130,23 +133,24 @@ header{
 }
 /* Main Section  */
 /* About Section  */
-main{
-    margin-top: 0px;
-}
+
 .about{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 646px;
     margin-top: 0px;
-    border: 2px solid #1A0B2E;
+    /* border: 2px solid #e61638; */
     
 }
 .about-container {
     color: #FFFFFF;
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1200px;
     height: 646px;
     text-align: center;
-    margin: 50px auto 160px;
+    margin: 0 auto;
     /* padding: 200px 50px 200px 120px; */
-    /* border: 2px solid white; */
+    border: 2px solid #1A0B2E;
 }
 .section-heading {
     margin: 50px auto;
@@ -154,6 +158,7 @@ main{
     max-width: 1200px;
     height: 222px;
 }
+
 .section-heading h2{
     font-size: 3rem;
     font-weight: 600;
@@ -162,7 +167,7 @@ main{
 .about-info {
     display: flex;
     justify-content:space-around;
-    margin: 160px auto 120px ;
+    margin: 160px auto 50px ;
 }
 .about-info .info-card h1{
   font-size:3rem;
@@ -176,7 +181,77 @@ main{
     color: #FFFFFF;
 }
 
+/* Techwave Wave Section  */
+.tech-wave-section{
+    /* border: 2px solid white; */
+    max-width: 1600px;
+    height: 1121px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #230E3D;
+}
+.tech-wave-containter{
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    /* background-color: #230E3D; */
+}
+.heading{
+    margin: 120px auto;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.tech-wave-mid{
+    margin: 40px auto 50px;
+    max-width: 1200px;
+}
+.naruto {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.tech-wave-mid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    background: #25144a;
+     border-radius: 40px;
+    padding: 40px;
+    border: 1px solid #3d2b63;
+}
+.tech-wave-mid p{
+  color: #757575;
+}
+.card img {
+    width: 40px;
+    margin-bottom: 15px;
+}
+/* Card possiti*/
+.itachi {
+    grid-row: span 2;
+}
 
+.madara {
+    grid-column: span 2;
+}
+
+.obito {
+    grid-column: span 2;
+}
+
+.sisui {
+    grid-column: span 2; 
+}
+
+ .susake{ 
+  grid-column: auto;
+ }
 
 /* Features Section  */
 .host-container{
@@ -275,4 +350,32 @@ main{
 .social-imag{
     height: 24px;
     width: 24px;
+}
+
+/* Responsive Design  */
+@media screen and (max-width:576px){
+
+    .menu, .btn-primary{
+        display: none;
+    }
+    .banner-circle{
+        width: 100px;
+    }
+    .about-info {
+    flex-direction: column;
+    
+
+}
+        
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .three-line{
+        display: none;
+    }
+}
+
+@media screen and (min-width:993px){
+    .three-line{
+        display: none;
+    }
 }
